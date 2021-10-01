@@ -1015,6 +1015,7 @@ height: 100%;
 @media screen and (max-width: 767px) {
 .header__burger {
   display: block;
+  cursor: pointer;
 }
 .header__nav {
   width: 100%;
@@ -1058,6 +1059,7 @@ height: 100%;
   background-color: #fff;
   position: absolute;
   top: 50%;
+  cursor: pointer;
 }
 .header__nav-close-line:first-child {
   transform: translateY(-50%) rotate(45deg);
